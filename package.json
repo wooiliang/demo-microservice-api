@@ -1,0 +1,26 @@
+{
+  "name": "demo-microservice-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "local": "node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooiliang/demo-microservice-api.git"
+  },
+  "author": "wooiliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wooiliang/demo-microservice-api/issues"
+  },
+  "homepage": "https://github.com/wooiliang/demo-microservice-api#readme",
+  "dependencies": {
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
